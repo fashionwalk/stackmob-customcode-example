@@ -1,6 +1,6 @@
 ## StackMob Custom Code Example Projects
 
-This example project is a simple Hello World.  This adds a server-side method called "hello_world" which can be called from your client iOS, Android, or JS SDKs.  In fact, your method will be available as a REST API at:
+This example project is a simple Hello World.  This adds a server-side method called "hello_world" which can be called from your client iOS, Android, Java Client or JS SDKs:
 
     http://api.mob1.stackmob.com/hello_world
     
