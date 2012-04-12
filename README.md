@@ -45,7 +45,7 @@ StackMobCommon.getStackMobInstance().get("hello_world", new StackMobCallback() {
 <script type="text/javascript">
   StackMob.customcode('hello_world', {}, {
      success: function(jsonResult) {
-       console.debug(jsonResult); //prints "Hello, world!"
+       //jsonResult is the JSON object: { "msg": "Hello, world!" }
      },
      
      error: function(failure) {
