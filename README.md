@@ -1,6 +1,6 @@
-# StackMob Custom Code Example Projects
+## StackMob Custom Code Example Projects
 
-## Java (Maven)
+### Java (Maven)
 
 Builidng:
 
@@ -9,7 +9,7 @@ Builidng:
 3. JAR is located in java/target
 4. upload JAR to StackMob
 
-## Scala (Maven)
+### Scala (Maven)
 
 Building:
 
@@ -18,7 +18,7 @@ Building:
 3. JAR is located in scala/target
 4. upload JAR to StackMob
 
-## Scala (sbt)
+### Scala (sbt)
 
 Building:
 
@@ -27,6 +27,6 @@ Building:
 3. JAR is located in scala/target/scala-2.9.1
 4. upload JAR to StackMob
 
-## Clojure (Maven)
+### Clojure (Maven)
 
 Coming soon...
