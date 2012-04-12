@@ -11,9 +11,31 @@ Custom code allows you to even define the returned JSON.  In this case, our simp
 You can call your server-side custom code from your SDK.  The request will be sent from the client, StackMob will route the call to the appropriate code and execute the code you've written, then StackMob will return the JSON you've defined.
 
 <span class="tab callcc" title="iOS SDK"/>
+**iOS SDK**
+
+```objc
+[[StackMob stackmob] get:@"hello_world" withCallback:^(BOOL success, id result) {
+    if (success) {
+        // result is the JSON as an NSDictionary of "msg" vs. "Hello, world!"
+    } else {
+    }
+}];
+
+```
 <span class="tab"/>
 
 <span class="tab callcc" title="Android SDK"/>
+**Android SDK**
+
+```java
+StackMobCommon.getStackMobInstance().get("hello_world", new StackMobCallback() {
+    @Override public void success(String responseBody) {
+        //responseBody is "{ \"msg\": \"Hello, world!\" }"
+    }
+    @Override public void failure(StackMobException e) {
+    }
+});
+```
 <span class="tab"/>
 
 <span class="tab callcc" title="JS SDK"/>
