@@ -17,4 +17,3 @@ packageOptions in (Compile, packageBin) +=
   Package.ManifestAttributes( java.util.jar.Attributes.Name.MAIN_CLASS -> "com.stackmob.example.EntryPointExtender" )
 
 logBuffered := false
-
